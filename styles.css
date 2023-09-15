@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+/* Define styles for an element when it is active (e.g., when clicked) */
+.active {
+    color: red; /* Change the text color to red when the link is active */
+    background-color: yellow; /* Change the background color to yellow when the link is active */
+    /* Add any other styles you want for the active state */
+}
